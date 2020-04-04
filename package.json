@@ -1,0 +1,19 @@
+{
+  "name": "quiz-library",
+  "version": "1.0.0",
+  "description": "A reactified quiz library",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peterianmuller/quiz-library.git"
+  },
+  "author": "Peter Muller and Marcus Svelack",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/peterianmuller/quiz-library/issues"
+  },
+  "homepage": "https://github.com/peterianmuller/quiz-library#readme"
+}
