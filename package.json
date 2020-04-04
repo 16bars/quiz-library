@@ -4,7 +4,9 @@
   "description": "A reactified quiz library",
   "main": "app.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "storybook": "start-storybook",
+    "build-storybook": "build-storybook"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,14 @@
   "bugs": {
     "url": "https://github.com/peterianmuller/quiz-library/issues"
   },
-  "homepage": "https://github.com/peterianmuller/quiz-library#readme"
+  "homepage": "https://github.com/peterianmuller/quiz-library#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@storybook/addon-actions": "^5.3.18",
+    "@storybook/addon-links": "^5.3.18",
+    "@storybook/addons": "^5.3.18",
+    "@storybook/react": "^5.3.18",
+    "babel-loader": "^8.1.0"
+  }
 }
