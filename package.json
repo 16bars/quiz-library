@@ -20,7 +20,6 @@
   "homepage": "https://github.com/peterianmuller/quiz-library#readme",  
   "dependencies": {
     "react": "^16.13.1"
-  "dependencies": {},
   "devDependencies": {
      "jest": "^25.2.7",
     "@babel/core": "^7.9.0",
