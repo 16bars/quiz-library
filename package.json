@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/peterianmuller/quiz-library.git"
+    "url": "git+https://github.com/16bars/quiz-library.git"
   },
   "author": "Peter Muller and Marcus Svelack",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/peterianmuller/quiz-library/issues"
+    "url": "https://github.com/16bars/quiz-library/issues"
   },
-  "homepage": "https://github.com/peterianmuller/quiz-library#readme",  
+  "homepage": "https://github.com/16bars/quiz-library#readme",  
   "dependencies": {
     "react": "^16.13.1"
   },
