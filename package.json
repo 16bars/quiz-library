@@ -22,12 +22,17 @@
     "react": "^16.13.1"
   },
   "devDependencies": {
-    "jest": "^25.2.7",
     "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "@babel/preset-react": "^7.9.4",
     "@storybook/addon-actions": "^5.3.18",
     "@storybook/addon-links": "^5.3.18",
+    "@storybook/addon-storyshots": "^5.3.18",
     "@storybook/addons": "^5.3.18",
     "@storybook/react": "^5.3.18",
-    "babel-loader": "^8.1.0"
+    "babel-jest": "^25.3.0",
+    "babel-loader": "^8.1.0",
+    "jest": "^25.2.7",
+    "react-test-renderer": "^16.13.1"
   }
 }
