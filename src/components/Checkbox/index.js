@@ -6,6 +6,7 @@ import PropTypes from 'prop-types';
 export const CheckBox = ({ onClick, id, name, value, error, success, label, ...rest }) => {
   return (
     <label>
+      {/*@todo error and success states still need to be handled */}
       <input type="checkbox" id={id} name={name} value={value} onClick={onClick} error={error} success={success} label={label} />
       {label}
     </label>
