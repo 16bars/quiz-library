@@ -6,7 +6,7 @@ import PropTypes from 'prop-types';
 export const CheckBox = ({ onClick, id, name, value, error, success, label, ...rest }) => {
   return (
     <label>
-      <input type="checkbox" id={id} name={name} value={value} onClick={onClick} error={error} success={success} label={label}></input>
+      <input type="checkbox" id={id} name={name} value={value} onClick={onClick} error={error} success={success} label={label} />
       {label}
     </label>
   );
