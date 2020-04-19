@@ -6,7 +6,7 @@ export default {
   title: 'CheckBox',
 };
 
-export const Checkbox = () => <CheckBox onClick={() => { }} id="idtest" name="nametest" />
+export const Checkbox = () => <CheckBox onClick={() => { }} id="idtest" name="nametest" label="choice 1" />
 
 
 

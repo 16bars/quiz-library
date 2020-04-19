@@ -1,11 +1,14 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-export const CheckBox = ({ onClick, id, name, value, error, success, label }) => {
+// display error and correct states 
+
+export const CheckBox = ({ onClick, id, name, value, error, success, label, ...rest }) => {
   return (
-    <div className="checkbox">
+    <label>
       <input type="checkbox" id={id} name={name} value={value} onClick={onClick} error={error} success={success} label={label}></input>
-    </div>
+      {label}
+    </label>
   );
 }
 
@@ -15,7 +18,6 @@ CheckBox.propTypes = {
   name: PropTypes.string.isRequired,
   value: PropTypes.bool
 };
-
 
 CheckBox.defaultProps = {
   value: false
