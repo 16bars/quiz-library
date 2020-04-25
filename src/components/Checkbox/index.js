@@ -1,27 +1,23 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { withLabel } from '../../decorators';
 
-// display error and correct states 
-
-export const CheckBox = ({ onClick, id, name, value, error, success, label, ...rest }) => {
+export const Checkbox = ({ onClick, id, name, value, error, success, label, ...rest }) => {
   return (
-    <label>
-      {/*@todo error and success states still need to be handled */}
-      <input type="checkbox" id={id} name={name} value={value} onClick={onClick} error={error} success={success} label={label} />
-      {label}
-    </label>
+    /* @todo error and success states still need to be handled */
+    < input type="checkbox" id={id} name={name} value={value} onClick={onClick} error={error} success={success} label={label} />
   );
 }
 
-CheckBox.propTypes = {
+Checkbox.propTypes = {
   onClick: PropTypes.func.isRequired,
   id: PropTypes.string.isRequired,
   name: PropTypes.string.isRequired,
   value: PropTypes.bool
 };
 
-CheckBox.defaultProps = {
+Checkbox.defaultProps = {
   value: false
 };
 
-export default CheckBox;
+export const LabeledCheckbox = withLabel(Checkbox);

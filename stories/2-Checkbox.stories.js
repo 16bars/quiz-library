@@ -1,12 +1,12 @@
 import React from 'react';
 import { action } from '@storybook/addon-actions';
-import { CheckBox } from '../src/components/Checkbox';
+import { Checkbox } from '../src/components/Checkbox';
 
 export default {
   title: 'CheckBox',
 };
 
-export const Checkbox = () => <CheckBox onClick={() => { }} id="idtest" name="nametest" label="choice 1" />
+export const CheckboxExample = () => <Checkbox onClick={() => { }} id="idtest" name="nametest" />
 
 
 
